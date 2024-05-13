@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * main {
+        height: 98vh;
+        display: grid;
+        grid-template-columns: repreat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+      }
+
+      #one {
+        background: rgb(4, 245, 233);
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+      }
+
+      #two {
+        background: red;
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 11;
+      }
+
+      #three {
+        background: rgb(33, 148, 142);
+        grid-column: 3 / span 7;
+        grid-row: 1 / span 1;
+      }
+
+      #four {
+        background: brown;
+        grid-column: 3 / span 7;
+        grid-row: 2 / span 11;
+      }
+
+      #five {
+        background: rgb(139, 233, 139);
+        grid-column: 10 / span 5;
+        grid-row: 1 / span 1;
+      }
+
+      #six {
+        background: rgb(221, 145, 145);
+        grid-column: 10 / span 5;
+        grid-row: 2 / span 11;
+      }
+
+      #seven {
+        background: rgb(150, 49, 49);
+        grid-column: 14 / span 1;
+        grid-row: 2 / span 11;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="one">1</div>
+      <div id="two">2</div>
+      <div id="three">3</div>
+      <div id="four">4</div>
+      <div id="five">5</div>
+      <div id="six">6</div>
+      <div id="seven">7</div>
+    </main>
+  </body>
+</html>
