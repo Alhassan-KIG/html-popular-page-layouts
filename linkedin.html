@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * main {
+        box-sizing: border-box;
+        height: 98vh;
+        display: grid;
+        grid-template-columns: repreat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+      }
+
+      #one {
+        margin: 5px;
+        background-color: rgb(139, 96, 74);
+        grid-column: 1 / span 12;
+        grid-row: 1 / span 1;
+      }
+
+      #two {
+        margin: 5px;
+        background: rgb(58, 243, 58);
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+      }
+
+      #three {
+        margin: 5px;
+        background: rgb(240, 240, 150);
+        grid-column: 1 / span 2;
+        grid-row: 4 / span 1;
+      }
+
+      #four {
+        margin: 5px;
+        background: rgb(4, 245, 233);
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 9;
+      }
+
+      #five {
+        margin: 5px;
+        background: sandybrown;
+        grid-column: 3 / span 8;
+        grid-row: 2 / span 1;
+      }
+
+      #six {
+        margin: 5px;
+        background: rgb(33, 148, 142);
+        grid-column: 3 / span 8;
+        grid-row: 3 / span 5;
+      }
+
+      #seven {
+        margin: 5px;
+        background: rgb(9, 99, 94);
+        grid-column: 3 / span 8;
+        grid-row: 8 / span 5;
+      }
+
+      #eight {
+        margin: 5px;
+        background: rgb(109, 109, 5);
+        grid-column: 11 / span 2;
+        grid-row: 2 / span 3;
+      }
+
+      #nine {
+        margin: 5px;
+        background: brown;
+        grid-column: 11 / span 2;
+        grid-row: 5 / span 4;
+      }
+
+      #ten {
+        margin: 5px;
+        background: green;
+        grid-column: 11 / span 2;
+        grid-row: 9 / span 4;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="one">1</div>
+      <div id="two">2</div>
+      <div id="three">3</div>
+      <div id="four">4</div>
+      <div id="five">5</div>
+      <div id="six">6</div>
+      <div id="seven">7</div>
+      <div id="eight">8</div>
+      <div id="nine">9</div>
+      <div id="ten">10</div>
+    </main>
+  </body>
+</html>
