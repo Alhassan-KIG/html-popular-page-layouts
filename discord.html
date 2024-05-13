@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * main {
+        height: 98vh;
+        display: grid;
+        grid-template-columns: repreat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+      }
+
+      #one {
+        background: rgb(242, 59, 248);
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 12;
+      }
+
+      #two {
+        background: rgb(58, 243, 58);
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 1;
+      }
+
+      #three {
+        background: rgb(240, 240, 150);
+        grid-column: 2 / span 2;
+        grid-row: 2 / span 2;
+      }
+
+      #four {
+        background: rgb(4, 245, 233);
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 2;
+      }
+
+      #five {
+        background: sandybrown;
+        grid-column: 2 / span 2;
+        grid-row: 6 / span 2;
+      }
+
+      #six {
+        background: rgb(33, 148, 142);
+        grid-column: 2 / span 2;
+        grid-row: 8 / span 2;
+      }
+
+      #seven {
+        background: rgb(9, 99, 94);
+        grid-column: 2 / span 2;
+        grid-row: 10 / span 2;
+      }
+
+      #eight {
+        background: rgb(109, 109, 5);
+        grid-column: 2 / span 2;
+        grid-row: 12 / span 1;
+      }
+
+      #nine {
+        background: brown;
+        grid-column: 4 / span 12;
+        grid-row: 1 / span 1;
+      }
+
+      #ten {
+        background: green;
+        grid-column: 4 / span 12;
+        grid-row: 2 / span 12;
+      }
+
+      #eleven {
+        background: rgb(94, 30, 94);
+        grid-column: 4 / span 12;
+        grid-row: 12 / span 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="one">1</div>
+      <div id="two">2</div>
+      <div id="three">3</div>
+      <div id="four">4</div>
+      <div id="five">5</div>
+      <div id="six">6</div>
+      <div id="seven">7</div>
+      <div id="eight">8</div>
+      <div id="nine">9</div>
+      <div id="ten">10</div>
+      <div id="eleven">11</div>
+    </main>
+  </body>
+</html>
