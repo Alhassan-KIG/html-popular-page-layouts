@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * main {
+        height: 98vh;
+        display: grid;
+        grid-template-columns: repreat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+      }
+
+      #one {
+        background: rgb(43, 39, 39);
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 12;
+      }
+
+      #one #picframe2 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+        border-bottom: 2px solid grey;
+      }
+
+      #one #picframe3 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #one #picframe4 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #one #picframe5 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #one #picframe6 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #one #picframe7 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #one #picframe8 {
+        display: grid;
+        padding: 30px;
+        border: 0px;
+        border-style: hidden;
+        margin: 10%;
+        background-color: grey;
+        border-radius: 100%;
+      }
+
+      #two {
+        background: rgb(49, 49, 49);
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 1;
+        text-align: left;
+        color: beige;
+        box-sizing: content-box;
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 30px;
+      }
+
+      #three {
+        background: rgb(49, 49, 49);
+        grid-column: 2 / span 2;
+        grid-row: 2 / span 3;
+      }
+
+      #three #picframe1 {
+        display: inline-block;
+        padding: 25px;
+        border: 10px 20px;
+        border-style: hidden;
+        margin-right: 50%;
+        margin-left: 25%;
+        background-color: grey;
+        border-radius: 20px;
+      }
+
+      #three #text1 {
+        color: aliceblue;
+        margin-left: 14%;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      #three #text2 {
+        color: aliceblue;
+        font-size: 16px;
+      }
+
+      #three #text2 p span {
+        color: rgb(49, 49, 49);
+      }
+
+      #four {
+        background: rgb(49, 49, 49);
+        grid-column: 2 / span 2;
+        grid-row: 5 / span 1;
+      }
+
+      #four #invite {
+        display: inline-block;
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: hidden;
+        margin-left: 39px;
+        background-color: rgb(70, 70, 226);
+        border-radius: 5px;
+      }
+
+      #five {
+        background: rgb(49, 49, 49);
+        color: beige;
+        grid-column: 2 / span 2;
+        grid-row: 6 / span 2;
+      }
+
+      #five p {
+        margin-left: 10px;
+      }
+
+      #six {
+        background: rgb(49, 49, 49);
+        color: beige;
+        grid-column: 2 / span 2;
+        grid-row: 8 / span 2;
+      }
+
+      #six p {
+        margin-left: 10px;
+      }
+
+      #seven {
+        background: rgb(49, 49, 49);
+        color: beige;
+        grid-column: 2 / span 2;
+        grid-row: 10 / span 2;
+      }
+
+      #seven p {
+        margin-left: 10px;
+      }
+
+      #eight {
+        background: rgb(49, 49, 49);
+        grid-column: 2 / span 2;
+        grid-row: 12 / span 1;
+        text-align: center;
+        color: beige;
+
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 10px;
+      }
+
+      #nine {
+        background: rgb(43, 39, 39);
+        grid-column: 4 / span 12;
+        grid-row: 1 / span 1;
+        border-left: solid;
+        border-bottom: thin;
+      }
+
+      #ten {
+        background: rgb(49, 49, 49);
+        grid-column: 4 / span 12;
+        grid-row: 2 / span 12;
+        border-left: solid;
+      }
+
+      #eleven {
+        background: rgb(43, 39, 39);
+        grid-column: 4 / span 12;
+        grid-row: 12 / span 1;
+        text-align: center;
+        color: beige;
+        box-sizing: content-box;
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="one">
+        <picframe2 id="picframe2"></picframe2>
+        <picframe3 id="picframe3"></picframe3>
+        <picframe4 id="picframe4"></picframe4>
+        <picframe5 id="picframe5"></picframe5>
+        <picframe6 id="picframe6"></picframe6>
+        <picframe7 id="picframe7"></picframe7>
+        <picframe8 id="picframe8"></picframe8>
+      </div>
+      <div id="two">Boolean UK</div>
+      <div id="three">
+        <picframe1 id="picframe1"></picframe1>
+        <text1 id="text1">An adventure begins.</text1>
+        <text2 id="text2"
+          ><p><span>.........</span>Let's add some friends!</p></text2
+        >
+      </div>
+      <div id="four">
+        <invite id="invite">invite people</invite>
+      </div>
+      <div id="five">
+        GENERAL
+        <p>general</p>
+        <p>general</p>
+      </div>
+      <div id="six">
+        CLASSES
+        <p>class-1</p>
+        <p>class-2</p>
+      </div>
+      <div id="seven">
+        LOBBY
+        <p>random</p>
+        <p>gaming</p>
+      </div>
+      <div id="eight">User#0001</div>
+      <div id="nine"></div>
+      <div id="ten"></div>
+      <div id="eleven">Hey Everyone</div>
+    </main>
+  </body>
+</html>
